@@ -5,6 +5,6 @@ using UnityEngine;
 public enum NPCType
 { 
     Farmer,
-    Begger,
+    Beggar,
     Shopowner
 }

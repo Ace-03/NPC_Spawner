@@ -10,7 +10,7 @@ public class NPCSpawner : MonoBehaviour
 
     public void SpawnVillagers()
     {
-        m_Beggar = m_Factory.GetNPC(NPCType.Begger);
+        m_Beggar = m_Factory.GetNPC(NPCType.Beggar);
         m_Farmer = m_Factory.GetNPC(NPCType.Farmer);
         m_Shopowner = m_Factory.GetNPC(NPCType.Shopowner);
 

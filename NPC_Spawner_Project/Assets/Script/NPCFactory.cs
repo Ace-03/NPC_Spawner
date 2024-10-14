@@ -6,7 +6,7 @@ public class NPCFactory : MonoBehaviour
     { 
         switch (type) 
         {
-            case NPCType.Begger:
+            case NPCType.Beggar:
                 INPC beggar = new Beggar();
                 return beggar;
             case NPCType.Farmer: 
